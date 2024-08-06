@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+env/
+venv/
+.env/
+myenv/
+
+# Data directories (adjust as needed)
+data/
+*.csv
+*.h5
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE Specific
+.vscode/
+.idea/
+
+# Model Checkpoints
+models/*.h5
+
+# Other
+.DS_Store
