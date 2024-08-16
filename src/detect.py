@@ -11,7 +11,7 @@ def detect_damage(image):
     return prediction > 0.5  # Return True if damaged, False otherwise
 
 def capture_and_detect():
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(0) # index of a camera
     detecting = True  # Flag to control the detection process
 
     while True:
