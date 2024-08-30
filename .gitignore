@@ -27,3 +27,6 @@ models/*.h5
 
 # Other
 .DS_Store
+dist/
+build/
+detect.spec
