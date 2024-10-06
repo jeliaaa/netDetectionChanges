@@ -23,4 +23,4 @@ def augment_and_save(input_path, output_path, num_augmentations=5):
                 cv2.imwrite(os.path.join(output_path, f"aug_{i}_{img_name}"), augmented_image)
 
 # Call the function to augment images
-augment_and_save('C:/Users/Aleksandre Jelia/Desktop/CODE/netDetection/data/train/damaged', 'C:/Users/Aleksandre Jelia/Desktop/CODE/netDetection/data/train/damaged', num_augmentations=5)
+augment_and_save('C:/Users/Aleksandre Jelia/Desktop/CODE/netDetection/data/validation/damaged', 'C:/Users/Aleksandre Jelia/Desktop/CODE/netDetection/data/validation/damaged', num_augmentations=5)
