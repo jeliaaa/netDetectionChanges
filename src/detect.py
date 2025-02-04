@@ -59,7 +59,7 @@ def detect_damage(image):
     return prediction < 0.5  # Return True if damaged, False otherwise
 
 def capture_and_detect():
-    cap = cv2.VideoCapture(0)  # index of the camera (0 is default)
+    cap = cv2.VideoCapture(1)  # index of the camera (0 is default)
     
     # Set resolution
     width = 1920  # Change this to your desired width
